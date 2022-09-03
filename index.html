@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="backgroundGradient"></div>
+  <main class="container">
+    <section class="app">
+      <header class="app__top">
+        <div class="app__top--topWhitePlace"></div>
+        <div class="appProfile">
+          <div class="appProfile__left">
+            <div class="appProfile__arrow"></div>
+            <img class="appProfile__img" src="images/avatar.jpg" alt="">
+            <div class="appProfile__name">
+              <h2 class="appProfile__name--fullName">Samuel Green</h2>
+              <p class="appProfile__name--status">Available to Walk</p>
+            </div>
+          </div>
+          <div class="appProfile__dots">
+            <div class="appProfile__dots--dot"></div>
+            <div class="appProfile__dots--dot"></div>
+            <div class="appProfile__dots--dot"></div>
+          </div>
+        </div>
+      </header>
+      <div class="app__chat">
+        <p class="app__chat--leftMSG">
+          That sounds great. I’d be<br>
+          happy to discuss more.
+        </p>
+        <p class="app__chat--leftMSG">
+          Could you send over some<br> 
+          pictures of your dog, please?
+        </p>
+        <div class="imagesMSG">
+          <img class="imagesMSG__single" src="images/dog-image-1.jpg" alt="">
+          <img class="imagesMSG__single" src="images/dog-image-2.jpg" alt="">
+          <img class="imagesMSG__single" src="images/dog-image-3.jpg" alt="">
+        </div>
+        <p class="app__chat--rightMSG">
+          Here are a few pictures. She’s<br> 
+          a happy girl!
+        </p>
+        <p class="app__chat--rightMSG">Can you make it?</p>
+        <p class="app__chat--leftMSG">
+          She looks so happy! The time<br> 
+          we discussed works. How<br> 
+          long shall I take her out for?
+        </p>
+        <div class="option">
+          <input class="option__radio" name="foo" type="radio">
+          <p class="option__description">30 minute walk</p>
+          <p class="option__price">$29</p>
+        </div>
+        <div class="option">
+          <input class="option__radio" name="foo" type="radio">
+          <p class="option__description">1 hour walk</p>
+          <p class="option__price second">$49</p>
+        </div>
+        <div class="textbox">
+          <form action="" class="textbox__Form">
+            <input class="textbox__type" type="text" placeholder="Type a message…">
+            <input class="textbox__button" type="reset" value=">">
+          </form>
+        </div>
+      </div>
+    </section>
+    <div>
+      <h1 class="mainHeading">Simple booking</h1>
+      <p class="description">
+        Stay in touch with our dog walkers<br>
+        through the chat interface. This makes it<br> 
+        easy to discuss arrangements and make<br> 
+        bookings. Once the walk has been<br> 
+        completed you can rate your walker and<br>
+        book again all through the chat.
+      </p>
+    </div>
+  </main>
+</body>
+</html>
