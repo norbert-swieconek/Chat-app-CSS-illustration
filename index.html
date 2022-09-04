@@ -2,23 +2,34 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <title>Chat app CSS illustration</title>
 
+  <!-- CSS -->
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="normalize.css">
+
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
+  <!-- Background image -->
   <div class="backgroundGradient"></div>
+
   <main class="container">
+
+    <!-- Start App -->
     <section class="app">
+
+      <!-- Start Header App -->
       <header class="app__top">
         <div class="app__top--topWhitePlace"></div>
         <div class="appProfile">
+          
+          <!-- Left part of Header -->
           <div class="appProfile__left">
             <div class="appProfile__arrow"></div>
             <img class="appProfile__img" src="images/avatar.jpg" alt="">
@@ -27,6 +38,8 @@
               <p class="appProfile__name--status">Available to Walk</p>
             </div>
           </div>
+
+          <!-- Right part of Header -->
           <div class="appProfile__dots">
             <div class="appProfile__dots--dot"></div>
             <div class="appProfile__dots--dot"></div>
@@ -34,6 +47,9 @@
           </div>
         </div>
       </header>
+      <!-- End Header App -->
+
+      <!-- Start Chat App -->
       <div class="app__chat">
         <p class="app__chat--leftMSG">
           That sounds great. I’d be<br>
@@ -69,13 +85,17 @@
           <p class="option__price second">$49</p>
         </div>
         <div class="textbox">
-          <form action="" class="textbox__Form">
+          <form action="#" class="textbox__Form">
             <input class="textbox__type" type="text" placeholder="Type a message…">
             <input class="textbox__button" type="reset" value=">">
           </form>
         </div>
       </div>
+      <!-- End Chat App -->
     </section>
+    <!-- End App -->
+
+    <!-- Start Description -->
     <div>
       <h1 class="mainHeading">Simple booking</h1>
       <p class="description">
@@ -87,6 +107,7 @@
         book again all through the chat.
       </p>
     </div>
+    <!-- End Description -->
   </main>
 </body>
 </html>
