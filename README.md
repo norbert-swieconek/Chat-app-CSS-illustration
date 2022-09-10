@@ -11,6 +11,6 @@ This project was created to test my skill of CSS. Everything except images of do
 * Minimum 1440px:
 <p align="center"><img src="https://user-images.githubusercontent.com/62474258/188399274-4d30a067-3034-4d24-967a-ecdc5e9fe836.png"/></p>
 
-## Appendix
+## Appendix:
 
 Design comes from: www.frontendmentor.io
